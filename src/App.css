@@ -4,3 +4,15 @@ body,
     height: 100%;
     margin: 0;
 }
+
+section {
+    display: grid;
+    height: 400px;
+    width: 700px;
+    gap: 20px;
+    grid-template: 1fr 200px 1fr / 1fr 1fr;
+}
+
+section > div {
+    background-color: #daa520;
+}
